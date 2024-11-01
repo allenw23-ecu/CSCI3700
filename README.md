@@ -3,7 +3,7 @@ Will Allen
 
 ## Quick Start
 Clone the Repository:
-git clone https://github.com/allwnw23-ecu/CSCI3700-HW3.git
+git clone https://github.com/allenw23-ecu/CSCI3700-HW3.git
 
 ## Enter project directory
 cd CSCI3700-HW3
