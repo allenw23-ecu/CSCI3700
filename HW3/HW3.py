@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 import util
 
-# Create an application instance
+# Create an instance
 app = Flask(__name__)
 
-# Configuration variables
+# Global variables
 username = 'raywu1990'
 password = 'test'
 host = '127.0.0.1'
@@ -12,7 +12,6 @@ port = '5432'
 database = 'dvdrental'
 
 
-# Route to update basket_a by inserting a new row
 @app.route('/api/update_basket_a')
 def update_basket_a():
     try:
